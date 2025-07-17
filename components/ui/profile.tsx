@@ -10,7 +10,7 @@ function Profile({
   const { name, email, image } = user;
 
   return (
-    <div className="border rounded-lg flex items-center gap-4">
+    <div className="border rounded-lg flex items-center gap-4 bg-background">
       <div className="p-4 border-r">
         <Avatar className="border w-12 h-12">
           <AvatarImage src={image ?? undefined} />
